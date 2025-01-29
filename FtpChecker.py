@@ -6,8 +6,8 @@ import requests
 from pystyle import Colors, Colorate, Center
 
 # Remplace par ton Token de bot Telegram et l'ID de ton chat
-TELEGRAM_TOKEN = '7648150162:AAEwBJ8S2N57fx6EIEyQcjlo1N9PWejV2EY'  # Remplace par ton token de bot Telegram
-CHAT_ID = '8112468937'  # Remplace par ton chat ID ou celui de ton groupe
+TELEGRAM_TOKEN = ''  # Remplace par ton token de bot Telegram
+CHAT_ID = ''  # Remplace par ton chat ID ou celui de ton groupe
 
 # Liste des domaines à vérifier
 SECURE_DOMAINS = ['.gov', '.edu', '.gouv', '.org', '.mil', '.int', 'gob']
