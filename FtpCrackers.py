@@ -188,6 +188,26 @@ def process_ftp_file(input_file, format_choice, password_file):
                     else:
                         print(f"Invalid line format: {line.strip()}")
                         continue
+                elif format_choice == 6:
+                    # Format ftp://host|user|pass
+                    if line.startswith("ftp://"):
+                        line = line[len("ftp://"):]
+                    parts = line.strip().split('|')
+                    if len(parts) == 3:
+                        hostname, user, password = parts
+                        port = 21
+                    else:
+                        print(f"Invalid line format: {line.strip()}")
+                        continue
+                elif format_choice == 7:
+                    # Format host|user|pass
+                    parts = line.strip().split('|')
+                    if len(parts) == 3:
+                        hostname, user, password = parts
+                        port = 21
+                    else:
+                        print(f"Invalid line format: {line.strip()}")
+                        continue
                 else:
                     print(f"Invalid format choice: {format_choice}")
                     return
@@ -242,8 +262,10 @@ def main():
     print("2. host:user:password:port")
     print("3. host - user;password - port")
     print("4. ftp://hostname;user;pass")
-    print("5. Host: hostname identifier et ce message apparait enleve le automatiquement partout (Status code: 200) User: Username Password: password\033[1;37m")
-    format_choice = int(input("\n\033[1;34m[] Enter your choice (1-5): \033[1;37m"))
+    print("5. Host: hostname identifier et ce message apparait enleve le automatiquement partout (Status code: 200) User: Username Password: password")
+    print("6. ftp://host|user|pass")
+    print("7. host|user|pass\033[1;37m")
+    format_choice = int(input("\n\033[1;34m[] Enter your choice (1-7): \033[1;37m"))
 
     input_file = input("\n\033[1;34m[] Enter The List \033[1;93m: \033[1;37m")
     password_file = input("\n\033[1;34m[] Enter The Password File \033[1;93m: \033[1;37m")
